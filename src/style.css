@@ -4,3 +4,35 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+#calculator-container{
+  display: grid;
+  row-gap: 2ch;
+  padding: 3ch;
+  background-color: hsl(0, 0%, 90%);
+}
+
+#buttons-container{
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
+}
+
+button{
+  padding: 3ch;
+  border: 2px solid hsl(0, 0%, 90%);
+}
+
+button:hover{
+  background-color: hsl(0, 0%, 90%);
+  border-color: hsl(0, 0%, 85%);
+}
+
+#display-container{
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+
+#equation-button{
+  background-color: hsl(0, 0%, 95%);
+  padding: 1ch 3ch;
+}
