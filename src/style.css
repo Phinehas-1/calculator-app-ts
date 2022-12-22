@@ -17,9 +17,11 @@ body{
   grid-template-columns: max-content 1fr;
 }
 
-#equation-button{
-  background-color: hsl(0, 0%, 95%);
-  padding: 1ch 3ch;
+#equation-symbol-container{
+ display: grid;
+ font-size: 4ch;
+ justify-content: center;
+ align-items: center;
 }
 
 #output-container{
