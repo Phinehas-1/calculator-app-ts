@@ -1,6 +1,6 @@
 
 let operands: number[] = [];
-export let operatorList: string[] = ["+", "-", "*", "/", "="];
+export let operatorList: string[] = ["+", "-", "*", "/", "=", "clr"];
 
 export const setOperands = (operand: number) => {
     operands.push(operand);
