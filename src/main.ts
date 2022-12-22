@@ -8,7 +8,7 @@ const buttons = document.querySelectorAll('button');
 
 const handleButtonClick = (button: HTMLButtonElement) => {
   let buttonValue: string = button.value;
-  if (operatorList.find(operator => { buttonValue === operator })) {
+  if (operatorList.find(operator =>  buttonValue === operator )) {
     doOperation(buttonValue);
     return;
   }
