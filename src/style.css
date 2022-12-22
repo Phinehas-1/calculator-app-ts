@@ -12,6 +12,25 @@ body{
   background-color: hsl(0, 0%, 90%);
 }
 
+#display-container{
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+
+#equation-button{
+  background-color: hsl(0, 0%, 95%);
+  padding: 1ch 3ch;
+}
+
+#output-container{
+  display: grid;
+  justify-content: end;
+  padding-right: .4ch;
+  font-family: 'Poppins','Courier New', Courier, monospace;
+  font-size: 5ch;
+  font-weight: 400;
+}
+
 #buttons-container{
   display: grid;
   grid-template-columns: max-content max-content max-content max-content;
@@ -27,12 +46,3 @@ button:hover{
   border-color: hsl(0, 0%, 85%);
 }
 
-#display-container{
-  display: grid;
-  grid-template-columns: max-content 1fr;
-}
-
-#equation-button{
-  background-color: hsl(0, 0%, 95%);
-  padding: 1ch 3ch;
-}
