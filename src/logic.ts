@@ -1,5 +1,5 @@
 
-let operands: number[] = [];
+export let operands: number[] = [];
 export let operatorList: string[] = ["+", "-", "*", "/", "=", "clr"];
 
 export const setOperands = (operand: number) => {
